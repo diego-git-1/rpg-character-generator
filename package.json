@@ -1,0 +1,9 @@
+{
+  "name": "mevn-character-generator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@vue/cli": "4.3.1"
+  }
+}
