@@ -3,7 +3,7 @@
 ## Installation and Execution
 
 Clone this repository by running:
-- `git clone [repo]`
+- `git clone https://github.com/diego-git-1/rpg-character-generator.git`
 
 Enter the folder running through terminal:
 - `cd mevn-character-generator`
