@@ -1,7 +1,7 @@
 const express = require('express')
 const mongoose = require('mongoose')
-const cors = require('cors')
 const routes = require('./routes')
+const cors = require('cors')
 require('dotenv').config()
 
 mongoose.connect(process.env.DATABASE_URL, { useNewUrlParser: true, useUnifiedTopology: true })
@@ -15,6 +15,6 @@ const PORT = 3000
 
 app.use(express.json())
 app.use(cors())
-app.use(routes)
+app.use('/characters', routes)
 
 app.listen(PORT, () => console.log(`Server running at http://localhost:${PORT}/`))
