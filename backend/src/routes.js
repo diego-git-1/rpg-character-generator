@@ -3,6 +3,7 @@ const CharacterController = require('./controllers/CharacterController')
 
 const routes = express.Router()
 
-routes.get('/characters', CharacterController.index)
+routes.get('/', CharacterController.index)
+routes.post('/', CharacterController.create)
 
 module.exports = routes
