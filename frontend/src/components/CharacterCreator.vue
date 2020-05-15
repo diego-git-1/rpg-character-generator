@@ -9,7 +9,7 @@
       <option value="Thief">Thief</option>
       <option value="Warrior">Warrior</option>
     </select><br /><br />
-    <button v-on:click="postCharacter()">Create Character</button>
+    <button v-on:click="postCharacter">Create Character</button>
   </div>
 </template>
 
